@@ -1,0 +1,25 @@
+.header{
+    background-color: orangered;
+    padding: 10px;
+}
+
+.header_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo button{
+    background: none;
+    border: none;
+    color:white;
+    border: solid 1px white;
+    border-radius: 2px;
+    padding: 8px;
+    line-height: 0;
+}
+
+.header_nav ul{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
