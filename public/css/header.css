@@ -23,3 +23,24 @@
     text-transform: uppercase;
     margin-top: 10px;
 }
+
+@media (min-width: 481px){
+    .header{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .header_nav{
+        display: flex;
+        justify-content:space-between;
+    }
+    .header_nav ul{
+        display: flex;
+        gap: 20px;
+    }
+
+    .header_logo button{
+        display: none;
+    }
+
+    
+}
